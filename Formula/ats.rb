@@ -7,23 +7,23 @@ class Ats < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Natsuki-Kaede/agent-task-scheduler/releases/download/v0.1.1/ats-aarch64-apple-darwin.tar.gz"
-      sha256 "4d1634748e72f973957d86f27670d6c5999e45b05c358c6efe90e14823ee828a"
+      url "https://github.com/Natsuki-Kaede/agent-task-scheduler/releases/download/v0.1.2/ats-aarch64-apple-darwin.tar.gz"
+      sha256 "62639c67308aef5d6dc61aad6ccc2207113d6740a04c81f9285eeb032805fe1c"
     end
     on_intel do
-      url "https://github.com/Natsuki-Kaede/agent-task-scheduler/releases/download/v0.1.1/ats-x86_64-apple-darwin.tar.gz"
-      sha256 "a3c3503236c2854b2093b1234f8346afcfbd41a96923aa92f4b770ec81d30399"
+      url "https://github.com/Natsuki-Kaede/agent-task-scheduler/releases/download/v0.1.2/ats-x86_64-apple-darwin.tar.gz"
+      sha256 "423892fca4dec5fc3205572bec27a88c9642fc2adfa80caa610457cb10e8085f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Natsuki-Kaede/agent-task-scheduler/releases/download/v0.1.1/ats-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "377951402b996d1290dddabd793bcb894d6aab82b6567a8aa4cd4dca06dcfb94"
+      url "https://github.com/Natsuki-Kaede/agent-task-scheduler/releases/download/v0.1.2/ats-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7c936476db3163f801cff9e1df8d9af44ab764c70c824efdd9e2016ebadae589"
     end
     on_intel do
-      url "https://github.com/Natsuki-Kaede/agent-task-scheduler/releases/download/v0.1.1/ats-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "492012a7804bab81b2810dd714ccc86cac61b55f6955e6a9db182345b791ef2a"
+      url "https://github.com/Natsuki-Kaede/agent-task-scheduler/releases/download/v0.1.2/ats-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "9362ee798666775628b2c9882cc6a269c434b15ef2ee9f27829997c7a4abc77f"
     end
   end
 
