@@ -1,5 +1,5 @@
-# Homebrew formula for the tap. scripts/formula.sh fills in the version
-# and the checksums of the release archives.
+# Homebrew formula template for release archives.
+
 class Ats < Formula
   desc "Queues resource-heavy commands from AI agents and starts them by available memory"
   homepage "https://github.com/Natsuki-Kaede/AgentTaskScheduler"
@@ -7,23 +7,23 @@ class Ats < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Natsuki-Kaede/AgentTaskScheduler/releases/download/v0.1.3/ats-aarch64-apple-darwin.tar.gz"
-      sha256 "4e22e156d682be719a4c32f785103b386db4ed974012940312749f9c1c2b46e0"
+      url "https://github.com/Natsuki-Kaede/AgentTaskScheduler/releases/download/v0.1.5/ats-aarch64-apple-darwin.tar.gz"
+      sha256 "766e822020d98a6907552fa5da747afd5c6ea144357e6035be478419018b1d9b"
     end
     on_intel do
-      url "https://github.com/Natsuki-Kaede/AgentTaskScheduler/releases/download/v0.1.3/ats-x86_64-apple-darwin.tar.gz"
-      sha256 "422ed58f2553bdc97cca409a7f660630b5050ca4f3b9edebce4fd49d792d56fa"
+      url "https://github.com/Natsuki-Kaede/AgentTaskScheduler/releases/download/v0.1.5/ats-x86_64-apple-darwin.tar.gz"
+      sha256 "7e46dd55cef85b578114d139455c3b198789aec83b341b29a6c8df030282b146"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Natsuki-Kaede/AgentTaskScheduler/releases/download/v0.1.3/ats-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7214f2f6fc9e8ec9a05cea0f1b4477cf8940464c253a7fc61c9ec1d51a17d136"
+      url "https://github.com/Natsuki-Kaede/AgentTaskScheduler/releases/download/v0.1.5/ats-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "07c985326a140035e4f2056ac44fdb6de8e0850d499e816ea8b2446a7a8ef0fe"
     end
     on_intel do
-      url "https://github.com/Natsuki-Kaede/AgentTaskScheduler/releases/download/v0.1.3/ats-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "25e399518c58c72363c6a65fdcd6b8550e4cbf14816c6f0d2b506ea4c9732356"
+      url "https://github.com/Natsuki-Kaede/AgentTaskScheduler/releases/download/v0.1.5/ats-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "da5cdb55eef1df69699f8bfcf7d78b3bad424e70c611404114db2ac3383472b8"
     end
   end
 
